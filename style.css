@@ -32,4 +32,10 @@ body {
     transform: scale(1.05);
     font-size: 20px;
 }
-
+.pizza{
+    height: 600px;
+}
+.section-hero h2{
+    font-size: 40px;
+    font-style: italic;
+}
