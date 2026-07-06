@@ -24,7 +24,7 @@ body {
     color: white;
     transition: 0.3s ease;
     font-size: 20px;
-    fw
+    font-weight: 500px;
 }
 
 .nav-link:hover {
