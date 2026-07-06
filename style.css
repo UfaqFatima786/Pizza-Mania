@@ -1,0 +1,35 @@
+body {
+
+    background: linear-gradient(135deg, #330e0e, #5c0303, #b10404);
+    color: white;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(135deg, #aa3838, #580101, #920202);
+    border-radius: 20px;
+    box-shadow: #9aecbc;
+}
+
+.logo-1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+.nav-link {
+    color: white;
+    transition: 0.3s ease;
+    font-size: 20px;
+    fw
+}
+
+.nav-link:hover {
+    color: #f5bfbf;
+    transform: scale(1.05);
+    font-size: 20px;
+}
+
