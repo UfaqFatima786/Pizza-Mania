@@ -573,7 +573,7 @@ section p {
 }
 
 .review-slider{
-
+cursor: pointer;
     position:relative;
     width:100%;
     max-width:650px;
@@ -601,14 +601,12 @@ section p {
 }
 
 .review-card img{
-
     width:110px;
     height:110px;
     border-radius:50%;
-    border:5px solid #ffc107;
+    border:5px solid #ff0707;
     margin-bottom:20px;
     transition:.5s;
-
 }
 
 .review-card:hover img{
@@ -619,7 +617,7 @@ cursor: pointer;
 .review-card h3{
     font-size:28px;
     margin-bottom:10px;
-    color:#222;
+    color:#000000;
 }
 .stars{
     font-size:28px;
@@ -663,8 +661,6 @@ cursor: pointer;
     }
 }
 
-/* Responsive */
-
 @media(max-width:768px){
 
 .review-title{
@@ -700,7 +696,7 @@ line-height:28px;
 }
 
 .footer-col h2 {
-    color: #8591fd;
+    color: #fd8585;
     margin-bottom: 20px;
     font-size: 40px;
     font-weight: 500;
@@ -727,7 +723,7 @@ line-height:28px;
 }
 
 .footer-col ul li a:hover {
-    color: #abadff;
+    color: #ffabab;
     padding-left: 5px;
 }
 
@@ -745,18 +741,18 @@ line-height:28px;
 }
 
 .social-icons a:hover {
-    color: #00ffaa;
+    color: #ff0000;
     transform: translateX(5px);
 }
 
 .footer-bottom {
     text-align: center;
-    border-top: 1px solid #333;
+    border-top: 1px solid #ff9c9c;
     margin-top: 40px;
     padding-top: 20px;
 }
 
 .footer-bottom p {
-    color: #aaa;
-    font-size: 14px;
+    color: #f8cdcd;
+    font-size: 25px;
 }
