@@ -320,64 +320,6 @@ section p {
 
 }
 
-@media(max-width:768px) {
-    .section-title {
-        font-size: 35px;
-    }
-
-    .section-text {
-        width: 95%;
-    }
-}
-
-@media(max-width:992px) {
-    section h1 {
-        font-size: 38px;
-    }
-
-    .card {
-        margin-bottom: 20px;
-    }
-}
-
-@media(max-width:768px) {
-    section h1 {
-        font-size: 32px;
-    }
-
-    .card-body h4 {
-        font-size: 22px;
-    }
-
-    .card-body h5 {
-        font-size: 24px;
-    }
-
-}
-
-@media(max-width:576px) {
-    section {
-        padding: 50px 0;
-    }
-
-    section h1 {
-        font-size: 28px;
-    }
-
-    section p {
-        font-size: 15px;
-    }
-
-    .card img {
-        height: 200px;
-    }
-
-    .btn-danger {
-        font-size: 16px;
-    }
-
-}
-
 .offers-section {
     border-radius: 20px;
     background: #830000;
@@ -398,18 +340,15 @@ section p {
 }
 
 .offer-text {
-
     text-align: center;
     color: #ffffff;
     width: 65%;
     margin: auto;
     margin-top: 15px;
     line-height: 30px;
-
 }
 
 .offer-card {
-
     background: linear-gradient(135deg, #ee3b3b, #f07d7d);
     border-radius: 25px;
     padding: 35px 25px;
@@ -418,7 +357,6 @@ section p {
     overflow: hidden;
     transition: .5s;
     box-shadow: 0 12px 25px rgba(0, 0, 0, .08);
-
 }
 
 .offer-card:hover {
@@ -513,7 +451,6 @@ section p {
     100% {
         box-shadow: 0 0 10px rgba(214, 40, 40, .15);
     }
-
 }
 
 @keyframes bounce {
@@ -525,20 +462,6 @@ section p {
 
     50% {
         transform: translateY(-12px);
-    }
-}
-
-@media(max-width:768px) {
-    .offer-title {
-        font-size: 35px;
-    }
-
-    .offer-text {
-        width: 95%;
-    }
-
-    .offer-card {
-        margin-bottom: 20px;
     }
 }
 
@@ -655,26 +578,6 @@ section p {
     }
 }
 
-@media(max-width:768px) {
-
-    .review-title {
-        font-size: 35px;
-    }
-
-    .review-text {
-        width: 95%;
-    }
-
-    .review-card {
-        padding: 30px 20px;
-    }
-
-    .review-card p {
-        font-size: 16px;
-        line-height: 28px;
-    }
-
-}
 
 .footer {
     background: #580101;
@@ -748,5 +651,181 @@ section p {
 
 .footer-bottom p {
     color: #f8cdcd;
-    font-size: 25px;
+    font-size: 15px;
+}
+
+@media(max-width:992px) {
+    section h1 {
+        font-size: 38px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+}
+@media (max-width:800px){
+
+    .hero-section{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-section .text{
+        margin-top: 20px;
+    }
+
+    .pizza-h2{
+        font-size: 2.5rem;
+    }
+
+    .pizza-para{
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+
+    .hero-section .img img{
+        width: 300px;
+        margin: auto;
+        display: block;
+    }
+}
+@media(max-width:768px) {
+    .offer-title {
+        font-size: 35px;
+    }
+
+    .offer-text {
+        width: 95%;
+    }
+
+    .offer-card {
+        margin-bottom: 20px;
+    }
+
+    .section-title {
+        font-size: 35px;
+    }
+
+    .section-text {
+        width: 95%;
+    }
+
+    section h1 {
+        font-size: 32px;
+    }
+
+    .card-body h4 {
+        font-size: 22px;
+    }
+
+    .card-body h5 {
+        font-size: 24px;
+    }
+
+    .review-title {
+        font-size: 35px;
+    }
+
+    .review-text {
+        width: 95%;
+    }
+
+    .review-card {
+        padding: 30px 20px;
+    }
+
+    .review-card p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+     .footer {
+        padding: 50px 20px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        justify-items: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer-col {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-col ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .footer-col ul li {
+        margin: 10px 0;
+    }
+
+    .footer-col a {
+        text-decoration: none;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:576px) {
+    .pizza-h2 {
+        font-style: italic;
+        font-size: 39px;
+        font-weight: bold;
+        color: #fda1a1;
+        transition: 0.4s ease;
+        animation: slideLeft 1s ease;
+    }
+
+    .pizza-h2:hover {
+        cursor: pointer;
+        color: #fa4141;
+        letter-spacing: 1px;
+        text-shadow: 0 5px 15px rgba(83, 69, 62, 0.76);
+    }
+ .hero-section .img img{
+        width: 220px;
+    }
+    section {
+        padding: 50px 0;
+    }
+
+    section h1 {
+        font-size: 28px;
+    }
+
+    section p {
+        font-size: 15px;
+    }
+
+    .card img {
+        height: 200px;
+    }
+
+    .btn-danger {
+        font-size: 16px;
+    }
+
 }
