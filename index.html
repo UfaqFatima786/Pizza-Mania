@@ -35,16 +35,16 @@
                         <a class="nav-link blog" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#pizzas">Pizzas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#choose">Choose</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
+                        <a class="nav-link" href="#offers">Offers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#reviews">Reviews</a>
                     </li>
                 </ul>
             </div>
@@ -87,7 +87,7 @@
             Freshly baked, loaded with cheese, and made with premium ingredients.
         </p>
 
-        <div class="row g-4 my-4 popular-pizzas">
+        <div class="row g-4 my-4 popular-pizzas" id="pizzas">
             <div class="col-lg-3 col-md-6">
                 <div class="card shadow border-0 rounded-4 h-100">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiVyxhtxxoadcsZ8NUaPr-JbKlgaW0MnOQN6RvvNWqkQ&s=10"
@@ -233,7 +233,7 @@
                 </div>
             </div>
         </div>
-        <section class="why-section" id="why">
+        <section class="why-section" id="choose">
             <div class="container">
                 <h2 class="section-title" data-aos="fade-down">
                     🍕 Why Choose Us
@@ -325,28 +325,25 @@
                     Grab our hottest deals and enjoy delicious pizzas at amazing prices.
                 </p>
                 <div class="row g-4 mt-4">
-
-                <!-- Offer 1 -->
                     <div class="col-lg-3 col-md-6" data-aos="zoom-in">
                         <div class="offer-card">
                             <span class="offer-badge">HOT</span>
                             <div class="offer-icon">🍕</div>
                             <h3>Buy 1 Get 1 Free</h3>
-                            <p>
-                                Order any medium pizza and get another absolutely FREE.
+                            <p class="offer-para">
+                                Order any one pizza and get one absolutely FREE.
                             </p>
                             <button class="offer-btn">
                                 Order Now
                             </button>
                         </div>
                     </div>
-                    <!-- Offer 2 -->
                     <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                         <div class="offer-card">
                             <span class="offer-badge">20% OFF</span>
                             <div class="offer-icon">🎉</div>
                             <h3>Weekend Discount</h3>
-                            <p>
+                            <p class="offer-para">
                                 Enjoy 20% discount every Saturday and Sunday.
                             </p>
                             <button class="offer-btn">
@@ -354,13 +351,12 @@
                             </button>
                         </div>
                     </div>
-                    <!-- Offer 3 -->
                     <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
                         <div class="offer-card">
                             <span class="offer-badge">FREE</span>
                             <div class="offer-icon">🥤</div>
                             <h3>Free Drink</h3>
-                            <p>
+                            <p class="offer-para">
                                 Get a FREE soft drink with every Large Pizza.
                             </p>
                             <button class="offer-btn">
@@ -368,93 +364,83 @@
                             </button>
                         </div>
                     </div>
-                    <!-- Offer 4 -->
                     <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
                         <div class="offer-card">
-
                             <span class="offer-badge">BEST</span>
-
                             <div class="offer-icon">👨‍👩‍👧‍👦</div>
-
                             <h3>Family Deal</h3>
-
-                            <p>
-                                2 Large Pizzas + Fries + Drinks at a special family price.
+                            <p class="offer-para">
+                                2 Pizzas + Fries + Drinks at special family price.
                             </p>
-
                             <button class="offer-btn">
                                 View Deal
                             </button>
-
                         </div>
                     </div>
-
                 </div>
-
             </div>
-
         </section>
         <section class="reviews-section" id="reviews">
-
-    <div class="container">
-        <h2 class="review-title" data-aos="fade-down">
-            💬 Customer Reviews
-        </h2>
-        <p class="review-text" data-aos="fade-up">
-            See what our happy customers say about Pizza Mania.
-        </p>
-        <div class="review-slider">
-            <div class="review-card active">
-                <img src="https://i.pravatar.cc/120?img=12" alt="Customer">
-                <h3>Ahmed Khan</h3>
-                <div class="stars">
-                    ⭐⭐⭐⭐⭐
-                </div>
-                <p>
-                    "Best pizza in town! The cheese was so fresh and the crust was perfectly crispy."
+            <div class="container">
+                <h2 class="review-title" data-aos="fade-down">
+                    💬 Customer Reviews
+                </h2>
+                <p class="review-text" data-aos="fade-up">
+                    See what our happy customers say about Pizza Mania.
                 </p>
-            </div>
-            <div class="review-card">
-                <img src="https://i.pravatar.cc/120?img=32" alt="Customer">
-                <h3>Sarah Ali</h3>
-                <div class="stars">
-                    ⭐⭐⭐⭐⭐
+                <div class="review-slider">
+                    <div class="review-card active">
+                        <img src="https://i.pravatar.cc/120?img=12" alt="Customer">
+                        <h3>Ahmed Khan</h3>
+                        <div class="stars">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                        <p>
+                            "Best pizza in town! The cheese was so fresh and the crust was perfectly crispy."
+                        </p>
+                    </div>
+                    <div class="review-card">
+                        <img src="https://i.pravatar.cc/120?img=32" alt="Customer">
+                        <h3>Sarah Ali</h3>
+                        <div class="stars">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                        <p>
+                            "Fast delivery and amazing taste. My family loved every bite."
+                        </p>
+                    </div>
+                    <div class="review-card">
+                        <img src="https://i.pravatar.cc/120?img=45" alt="Customer">
+                        <h3>Fatima Noor</h3>
+                        <div class="stars">
+                            ⭐⭐⭐⭐☆
+                        </div>
+                        <p>
+                            "Affordable prices with premium quality. Highly recommended!"
+                        </p>
+                    </div>
                 </div>
-                <p>
-                    "Fast delivery and amazing taste. My family loved every bite."
-                </p>
             </div>
-            <div class="review-card">
-                <img src="https://i.pravatar.cc/120?img=45" alt="Customer">
-                <h3>Fatima Noor</h3>
-                <div class="stars">
-                    ⭐⭐⭐⭐☆
-                </div>
-                <p>
-                    "Affordable prices with premium quality. Highly recommended!"
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
+        </section>
     </div>
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-col">
                 <h2>Pizza Mania</h2>
                 <p>
-                   Freshly baked with premium ingredients, Pizza Mania brings you delicious pizzas loaded with rich mozzarella cheese, flavorful toppings, and unforgettable taste. From classic favorites to special deals, we're dedicated to serving hot, fresh, and satisfying pizzas for every pizza lover.
+                    Freshly baked with premium ingredients, Pizza Mania brings you delicious pizzas loaded with rich
+                    mozzarella cheese, flavorful toppings, and unforgettable taste. From classic favorites to special
+                    deals, we're dedicated to serving hot, fresh, and satisfying pizzas for every pizza lover.
                 </p>
             </div>
             <div class="footer-col">
                 <h2>Quick Links</h2>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#faqs">Faqs</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#pizzas">Pizzas</a></li>
+                    <li><a href="#choose">Choose</a></li>
+                    <li><a href="#offers">Offers</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
                 </ul>
             </div>
             <div class="footer-col">
