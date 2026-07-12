@@ -76,8 +76,7 @@ body {
     max-width: 500px;
     display: block;
     margin: auto;
-    animation: floatPizza 3s ease-in-out infinite;
-
+    animation: floatPizza 2s ease-in-out infinite;
     transition: .5s ease;
 }
 
